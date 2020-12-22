@@ -9,8 +9,19 @@
     @include flex-layout(row);
     @include flex-layout-alignment(space-around, flex-start);
 
-    .form-div{
-        text-align: center;
+    .container-child{
+
+        .form-div{
+            background-color: white;
+            margin-left: 20px;
+            text-align: center;
+            width: 380px;
+            border: 1px solid $color-border;
+
+            img{
+                margin: 20px 0 20px 0;
+            }
+        }
     }
   }
 }

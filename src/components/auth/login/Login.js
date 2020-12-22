@@ -1,17 +1,20 @@
 import React from 'react';
 import Phone from '../../../assets/images/phone.PNG';
 import InstagramLogo from '../../../assets/images/instagramLogo.PNG';
+import InputTextField from '../../../components/shared/text-field/TextField';
 
 const Login  = () => {
     return(
         <div className="login-div">
             <div className="login-container">
-                 <div className="container-one">
+                 <div className="container-child">
                     <img width={380} height={600} src={Phone} alt="login-img"/>
                  </div>
-                 <div className="container-two">
+                 <div className="container-child">
                     <div className="form-div">
-                    <img src={InstagramLogo} alt="instagram-logo"/>
+                    <img width={280} height={70} src={InstagramLogo} alt="instagram-logo"/>
+                    <InputTextField type={'text'} placeholder={'username'}/>
+                    <InputTextField type={'password'} placeholder={'Password'}/>
                     </div>
                  </div>
             </div>

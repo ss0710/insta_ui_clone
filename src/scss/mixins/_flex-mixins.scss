@@ -1,0 +1,11 @@
+// flex-mixins
+
+@mixin flex-layout($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+@mixin flex-layout-alignment($main-axis-alignment, $cross-axis-alignment) {
+    justify-content: $main-axis-alignment;
+    align-items: $cross-axis-alignment;
+}

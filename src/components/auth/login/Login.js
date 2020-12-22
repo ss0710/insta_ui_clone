@@ -1,7 +1,8 @@
 import React from 'react';
 import Phone from '../../../assets/images/phone.PNG';
 import InstagramLogo from '../../../assets/images/instagramLogo.PNG';
-import InputTextField from '../../../components/shared/text-field/TextField';
+import InputTextField from '../../shared/text-field/InputTextField';
+import ClickButton from '../../shared/button/Button';
 
 const Login  = () => {
     return(
@@ -13,8 +14,14 @@ const Login  = () => {
                  <div className="container-child">
                     <div className="form-div">
                     <img width={280} height={70} src={InstagramLogo} alt="instagram-logo"/>
-                    <InputTextField type={'text'} placeholder={'username'}/>
-                    <InputTextField type={'password'} placeholder={'Password'}/>
+                    <InputTextField type={'text'} placeholder={'username'} />
+                    <InputTextField type={'password'} placeholder={'Password'} />
+                    <ClickButton text={'Log In'}/>
+                    <p>OR</p>
+                    <div className="Login-Links">
+                    <h4>Log in with Facebook</h4>
+                    <h5>Forgotten Passsword?</h5>
+                    </div>
                     </div>
                  </div>
             </div>

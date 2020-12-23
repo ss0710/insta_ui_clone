@@ -1,0 +1,10 @@
+.navbar-container{
+ @include flex-layout(row);
+ @include flex-layout-alignment(center,center);
+
+ .navbar{
+   width: 920px;
+   @include flex-layout(row);
+   @include flex-layout-alignment(space-between,center);
+ }
+}

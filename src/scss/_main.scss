@@ -3,9 +3,10 @@
 
 //mixins
 @import './mixins/flex-mixins';
-@import './mixins/components';
+@import './mixins/components-mixins';
 
 //components
 @import './components/links';
 @import './components/login';
 @import './components/signup';
+@import './components/navbar';

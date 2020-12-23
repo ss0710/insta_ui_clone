@@ -5,6 +5,7 @@ import InputTextField from '../../shared/text-field/InputTextField';
 import AppStore from '../../../assets/images/AppStore.png';
 import GooglePlay from '../../../assets/images/GooglePlay.png';
 import Links from '../../shared/links/Links';
+import {Link} from 'react-router-dom';
 
 const Signup  = () => {
     return(
@@ -30,7 +31,7 @@ const Signup  = () => {
             </div>
 
             <div className="login-link-div">
-            <p>Have an account? Log in</p>
+            <p>Have an account? <Link to="/"> Log in </Link></p>
             </div>
 
             <div className="App-link-div">

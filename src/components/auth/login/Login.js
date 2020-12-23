@@ -6,6 +6,7 @@ import ClickButton from '../../shared/button/Button';
 import AppStore from '../../../assets/images/AppStore.png';
 import GooglePlay from '../../../assets/images/GooglePlay.png';
 import Links from '../../shared/links/Links';
+import {Link} from 'react-router-dom';
 
 const Login  = () => {
     return(
@@ -31,7 +32,7 @@ const Login  = () => {
                     </div>
 
                     <div className="signup-link-div">
-                    <h4>Don't have an account? Sign up</h4>
+                    <p>Don't have an account? <Link to="/Signup"> Sign up </Link></p>
                     </div>
 
                     <div className="App-link-div">

@@ -52,6 +52,13 @@
         border: 1px solid $color-border;
         padding: 25px;
       }
+
+      .App-link-div{
+        img{
+          margin: 20px 5px 10px;
+          cursor: pointer;
+        }
+      }
     }
   }
 }

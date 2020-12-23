@@ -3,6 +3,8 @@ import Phone from '../../../assets/images/phone.PNG';
 import InstagramLogo from '../../../assets/images/instagramLogo.PNG';
 import InputTextField from '../../shared/text-field/InputTextField';
 import ClickButton from '../../shared/button/Button';
+import AppStore from '../../../assets/images/AppStore.png';
+import GooglePlay from '../../../assets/images/GooglePlay.png';
 
 const Login  = () => {
     return(
@@ -31,9 +33,9 @@ const Login  = () => {
                     <h4>Don't have an account? Sign up</h4>
                     </div>
 
-                    <div>
+                    <div className="App-link-div">
                     <p>Get the app.</p>
-                    <button>App Store</button><button>Google Play</button>
+                    <img height={40} width={135} src={AppStore} alt="App Store" /><img height={40} width={135} src={GooglePlay} alt="Google Play" />
                     </div>
 
                  </div>

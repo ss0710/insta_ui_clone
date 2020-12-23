@@ -5,6 +5,9 @@ const Home = () => {
     return(
         <div>
             <Navbar />
+            <div className="timeline-container">
+
+            </div>
         </div>
     );
 }

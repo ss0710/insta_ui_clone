@@ -1,7 +1,11 @@
 .navbar-container{
+ position: -webkit-sticky;
+ position: sticky;
+ top:0;
  @include flex-layout(row);
  @include flex-layout-alignment(center,center);
  border-bottom: 1px solid rgb(190, 190, 190);
+ background-color: white;
 
  .navbar{
    width: 920px;

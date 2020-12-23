@@ -1,7 +1,7 @@
 .login-div{
   background-color: $color-background;
   width: 100%;
-  @include flex-layout(row);
+  @include flex-layout(column);
   @include flex-layout-alignment(center, center);
 
   .login-container{
@@ -12,12 +12,7 @@
     .container-child{
 
       .form-div{
-        background-color: $color-white-shade;
-        margin-left: 20px;
-        text-align: center;
-        width: 320px;
-        border: 1px solid $color-border;
-        padding:0 30px 20px;
+        @include div-scss(320px, 0, 30px, 20px, 0, 20px, 0px);
 
         img{
             margin: 20px 0 20px 0;
@@ -32,10 +27,7 @@
 
         p:before,
         p:after{
-            content: ""; 
-            flex: 1 1; 
-            border-bottom: 2px solid rgb(151, 151, 151); 
-            margin: auto;
+           @include horizontal-line();
         }
 
         .Login-Links{

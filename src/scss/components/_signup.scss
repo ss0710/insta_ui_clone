@@ -1,0 +1,23 @@
+.signup-div{
+  background-color: $color-background;
+  @include flex-layout(column);
+  @include flex-layout-alignment(center, center);
+  
+  .form-div{
+    @include div-scss( 320px, 15px, 30px, 25px, 20px, 0, 10px);
+
+    .or-line{
+        @include flex-layout(row);
+        color:  rgb(128, 127, 127);
+    }
+
+    .or-line:before,
+    .or-line:after{
+        @include horizontal-line();
+    }
+  }
+
+  .login-link-div{
+    @include div-scss(320px, 15px, 30px, 25px, 10px, 0, 10px);
+  }
+}

@@ -5,6 +5,7 @@ import InputTextField from '../../shared/text-field/InputTextField';
 import ClickButton from '../../shared/button/Button';
 import AppStore from '../../../assets/images/AppStore.png';
 import GooglePlay from '../../../assets/images/GooglePlay.png';
+import Links from '../../shared/links/Links';
 
 const Login  = () => {
     return(
@@ -41,6 +42,9 @@ const Login  = () => {
                  </div>
 
             </div>
+
+            <Links/>
+
         </div>
     );
 }

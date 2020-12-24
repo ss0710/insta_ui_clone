@@ -4,7 +4,8 @@
  border-radius: 4px;
 
  .post-container{
-  @include flex-row-alignment-space-between();
+  @include flex-row-alignment-space-between(10px);
+  border-bottom: 1px solid $color-border;
 
   .user-detail{
    @include flex-layout(row);
@@ -19,10 +20,67 @@
  }
 
  .react-options{
-  @include flex-row-alignment-space-between();
+  @include flex-row-alignment-space-between(8px);
+ }
+
+ .total-likes{
+  background-color: $color-white-shade;
+  @include flex-layout(row);
+  @include flex-layout-alignment(space-between,center);
+  .likes{
+    margin: -6px 10px 0px;
+    font-weight: 500;
+  }
+ }
+
+ .caption{
+  @include flex-layout(row);
+  background-color: $color-white-shade;
+  padding: 5px;
+
+  .user-name{
+    font-weight: bold;
+    margin-left: 7px;
+  }
+
+  .caption-line{
+    font-size: 15px;
+    color: rgb(65, 65, 65);
+    margin-left: 5px;
+  }
+ }
+
+ .view-comments{
+   @include flex-layout(row);
+   @include flex-layout-alignment(space-between, center);
+   padding: 5px;
+   background-color: $color-white-shade;
+   border-bottom: 1px solid rgb(221, 221, 221);
+   padding-bottom: 20px;
+
+
+   .all-comments{
+    font-size: 17px;
+    margin-left: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    color:rgb(65, 65, 65);
+   }
  }
 
  .comment-box{
-  @include flex-row-alignment-space-between();
+  @include flex-row-alignment-space-between(10px);
+  padding: 18px;
+
+  input{
+   border-style: none;
+   font-size: 15px;
+  }
+
+  p{
+    color: $links-text-color;
+    font-weight: 500;
+    cursor: pointer;
+  }
  }
 }

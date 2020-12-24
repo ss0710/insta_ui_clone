@@ -27,10 +27,9 @@
 
 //mixin for flex-row layout-alignment-space-between-center
 
-@mixin flex-row-alignment-space-between(){
+@mixin flex-row-alignment-space-between($padding){
   @include flex-layout(row);
   @include flex-layout-alignment(space-between, center);
-  padding: 10px;
-  border-bottom: 1px solid $color-border;
+  padding: $padding;
   background-color: $color-white-shade;
 }

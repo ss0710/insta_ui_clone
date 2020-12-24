@@ -40,9 +40,26 @@ const Post = (props) => {
                             </div>
                         </div>
 
+                        <div className="total-likes">
+                            <p className="likes">130k likes</p>
+                        </div>
+
+                        <div className="caption">
+                            <div className="user-name">
+                                {user.name}
+                            </div>
+                            <div className="caption-line">
+                                {user.caption}
+                            </div>
+                        </div>
+
+                        <div className="view-comments">
+                            <p className="all-comments">View all comments</p>
+                        </div>
+
                         <div className="comment-box">
                             <div className="input-field"> 
-                                <input type="text" placeholder="comment..."/>
+                                <input type="text" placeholder="Add a comment..."/>
                             </div>
                             <div className="post-button">
                                 <p>Post</p>

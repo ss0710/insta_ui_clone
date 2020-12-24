@@ -12,12 +12,12 @@ const Post = (props) => {
             {
                 props.post.map((user, i)=>{
                     return(
-                        <div className="post-div">
+                        <div className="post-div" key={i}>
 
                         <div className="post-container">
                             <div className="user-imfo">
                                 <div className="user-detail">
-                                <Avatar alt="profile-pic" src={user.profile} /><p className="user-name">{user.name}</p>
+                                <Avatar alt="profile" src={user.profile} /><p className="user-name">{user.name}</p>
                                 </div>
                             </div>
                             <div className="options">
@@ -26,7 +26,7 @@ const Post = (props) => {
                         </div>
 
                         <div className="content">
-                            <img width="100%" height="600px" src={user.post} alt="uploaded-image"/>
+                            <img width="100%" height="600px" src={user.post} alt="upload"/>
                         </div>
 
                         <div className="react-options">

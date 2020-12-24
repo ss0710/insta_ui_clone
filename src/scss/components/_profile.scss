@@ -1,0 +1,32 @@
+.profile-div{
+ padding: 20px;
+
+ .profile-container{
+  @include flex-layout(row);
+  @include flex-layout-alignment(space-between,center);
+
+  .profile-name{
+  @include flex-layout(row);
+  @include flex-layout-alignment(space-between,center);
+  }
+
+  .username{
+   font-weight: 500;
+   margin-left: 10px;
+   font-size: 14px;
+  }
+
+  .full-name{
+   font-size: 14px;
+   color: rgb(136, 136, 136);
+   margin-left: 10px;
+  }
+
+  .switch-link{
+   color: $links-text-color;
+   font-size: 13px;
+   font-weight: 500;
+   cursor: pointer;
+  }
+ }
+}

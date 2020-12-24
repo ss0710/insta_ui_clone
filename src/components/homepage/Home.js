@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../navBar/Navbar';
 import Stories from '../stories/Stories';
 import Timeline from '../posts/Timeline';
+import Profile from '../profile & suggestion/Profile';
 
 const Home = () => {
     return(
@@ -20,7 +21,7 @@ const Home = () => {
             </div>
 
             <div className="suggestions">
-
+            <Profile/>
             </div>
 
             </div>

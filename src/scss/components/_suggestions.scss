@@ -1,0 +1,50 @@
+.suggestion-container{
+ padding: 20px 8px 20px;
+
+ .suggestion-heading{
+  @include flex-layout(row);
+  @include flex-layout-alignment(space-between,center);
+  margin-bottom: 15px;
+
+  .heading{
+    font-size: 14px;
+    color: rgb(99, 99, 99);
+    font-weight: 600;
+  }
+
+  .see-all{
+    margin-right: -10px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+ }
+
+ .avatar{
+  @include flex-layout(row);
+  @include flex-layout-alignment(space-between,center);
+  margin-bottom: 10px;
+  
+ .imformation{
+  @include flex-layout(row);  
+  @include flex-layout-alignment(center,center);
+
+ .details{
+   .user-fullname{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+   }
+  }
+ }
+
+ .follow-link{
+     p{
+        color: $links-text-color;
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-right: -10px;
+     }
+ }
+}
+}

@@ -23,7 +23,7 @@ const Login  = () => {
                     <img width={280} height={70} src={InstagramLogo} alt="instagram-logo"/>
                     <InputTextField type={'text'} placeholder={'username'} />
                     <InputTextField type={'password'} placeholder={'Password'} />
-                    <ClickButton text={'Log In'}/>
+                    <Link to="/Home"><ClickButton text={'Log In'}/></Link>
                     <p>OR</p>
                     <div className="Login-Links">
                     <h4>Log in with Facebook</h4>

@@ -12,7 +12,7 @@ const Timeline = () => {
         {
             name : "_Space_theory",
             profile: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlpQwpgLi3g_pbIQRpOCXHgWUEW33-bQmieg&usqp=CAU",
-            post: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8_aRWOmndnUExgDLkWsnMi4PvcuaL8QVmIQ&usqp=CAU"
+            post: "https://steamuserimages-a.akamaihd.net/ugc/268340571050108812/7E8ECBBE023A2F8FC8F4C4C1A070324B4D7FB609/"
         },
         {
             name : "_marvel_fc",
@@ -27,7 +27,7 @@ const Timeline = () => {
         {
             name : "developers_club",
             profile: "https://www.sonatype.com/hs-fs/hubfs/Developer%20Page%202020/intro-image-update-dev@4x.png?width=1669&name=intro-image-update-dev@4x.png",
-            post: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD6evNhqBDF9XTzWhPrX1FQyHEzQa3op0ghw&usqp=CAU"
+            post: "https://images.unsplash.com/photo-1552308995-2baac1ad5490?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwc2V0dXB8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
         }
     ];
 

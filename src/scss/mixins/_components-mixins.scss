@@ -24,3 +24,13 @@
         border-bottom: 2px solid rgb(151, 151, 151); 
         margin: auto;
 }
+
+//mixin for flex-row layout-alignment-space-between-center
+
+@mixin flex-row-alignment-space-between(){
+  @include flex-layout(row);
+  @include flex-layout-alignment(space-between, center);
+  padding: 10px;
+  border-bottom: 1px solid $color-border;
+  background-color: $color-white-shade;
+}

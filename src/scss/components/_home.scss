@@ -1,5 +1,4 @@
 .timeline-div{
-  height: 1000px;
   width: 100%;
   background-color: $color-background;
   @include flex-layout(row);
@@ -7,15 +6,13 @@
 
   .timeline-container{
    background: transparent;
-   height: 1000px;
    width: 920px;
    @include flex-layout(row);
-   padding-top: 60px;
+   padding-top: 40px;
 
    .posts{
     flex: 2.2;
-    height: 1000px;
-    background-color: yellow;
+    background: transparent;
 
     .stories{
      height: 90px;
@@ -31,8 +28,6 @@
 
    .suggestions{
     flex: 1;
-    height: 1000px;
-    background-color: green;
    }
   }
 }

@@ -1,0 +1,28 @@
+.post-div{
+ margin: 20px 0 20px;
+ border: 1px solid $color-border;
+ border-radius: 4px;
+
+ .post-container{
+  @include flex-row-alignment-space-between();
+
+  .user-detail{
+   @include flex-layout(row);
+   @include flex-layout-alignment(center,center);
+
+   .user-name{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+   }
+  }
+ }
+
+ .react-options{
+  @include flex-row-alignment-space-between();
+ }
+
+ .comment-box{
+  @include flex-row-alignment-space-between();
+ }
+}

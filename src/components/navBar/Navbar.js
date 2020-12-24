@@ -3,7 +3,7 @@ import Logo from '../../assets/images/logo.PNG';
 import HomeIcon from '@material-ui/icons/HomeOutlined';
 import MessengerIcon from '@material-ui/icons/MessageOutlined';
 import ExploreIcon from '@material-ui/icons/ExploreOutlined';
-import LikeIcon from '@material-ui/icons/FavoriteOutlined';
+import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
 
 const Navbar = () => {
     return (
@@ -19,7 +19,7 @@ const Navbar = () => {
                     <HomeIcon className="icon"/>
                     <MessengerIcon className="icon"/>
                     <ExploreIcon className="icon"/>
-                    <LikeIcon className="icon"/>
+                    <FavoriteBorder className="icon"/>
                 </div>
             </div>
         </div>

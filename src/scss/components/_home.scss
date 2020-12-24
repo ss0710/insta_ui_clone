@@ -1,5 +1,38 @@
-.timeline-container{
+.timeline-div{
+  height: 1000px;
+  width: 100%;
+  background-color: $color-background;
+  @include flex-layout(row);
+  @include flex-layout-alignment(center, center);
+
+  .timeline-container{
+   background: transparent;
+   height: 1000px;
+   width: 920px;
+   @include flex-layout(row);
+   padding-top: 60px;
+
+   .posts{
+    flex: 2.2;
     height: 1000px;
-    width: 100%;
-    background-color: red;
+    background-color: yellow;
+
+    .stories{
+     height: 90px;
+     border-radius: 4px;
+     background-color: white;
+     border: 1px solid $color-border;
+     overflow-x: scroll;
+    }
+    .stories::-webkit-scrollbar {
+        display: none;
+    }
+   }
+
+   .suggestions{
+    flex: 1;
+    height: 1000px;
+    background-color: green;
+   }
+  }
 }

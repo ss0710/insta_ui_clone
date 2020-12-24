@@ -2,6 +2,7 @@
  position: -webkit-sticky;
  position: sticky;
  top:0;
+ z-index: 1;
  @include flex-layout(row);
  @include flex-layout-alignment(center,center);
  border-bottom: 1px solid rgb(190, 190, 190);

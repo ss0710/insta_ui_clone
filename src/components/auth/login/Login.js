@@ -7,6 +7,7 @@ import AppStore from '../../../assets/images/AppStore.png';
 import GooglePlay from '../../../assets/images/GooglePlay.png';
 import Links from '../../shared/links/Links';
 import {Link} from 'react-router-dom';
+import FacebookIcon from '@material-ui/icons/Facebook';
 
 const Login  = () => {
     return(
@@ -26,13 +27,13 @@ const Login  = () => {
                     <Link to="/Home" style={{ textDecoration: 'none' }}><ClickButton text={'Log In'}/></Link>
                     <p>OR</p>
                     <div className="Login-Links">
-                    <h4>Log in with Facebook</h4>
+                    <h4><FacebookIcon className="facebook-icon"/>Log in with Facebook</h4>
                     <h5>Forgotten Passsword?</h5>
                     </div>
                     </div>
 
                     <div className="signup-link-div">
-                    <p>Don't have an account? <Link to="/Signup"> Sign up </Link></p>
+                    <p>Don't have an account? <Link to="/Signup" style={{ textDecoration: 'none' }}> Sign up </Link></p>
                     </div>
 
                     <div className="App-link-div">

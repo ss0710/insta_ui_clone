@@ -26,7 +26,7 @@ const Post = (props) => {
                         </div>
 
                         <div className="content">
-                            <img width="100%" height="600px" src={user.post} alt="upload"/>
+                            <img className="postimg" src={user.post} alt="upload"/>
                         </div>
 
                         <div className="react-options">

@@ -47,8 +47,18 @@
 
         .Login-Links{
           h4{
+            .facebook-icon{
+              margin-bottom: -5px;
+              margin-right: 5px;
+            }
             color: $links-text-color;
             margin:10px;
+            cursor: pointer;
+          }
+          h5{
+            font-weight: 400;
+            font-size: 13px;
+            cursor: pointer;
           }
         }
       }

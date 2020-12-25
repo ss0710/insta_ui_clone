@@ -6,6 +6,18 @@
   .form-div{
     @include div-scss( 320px, 15px, 30px, 25px, 20px, 0, 10px);
 
+    .sign-up-p{
+     font-size: 17px;
+     font-weight: 600;
+     color: rgb(145, 145, 145);
+    }
+
+    .terms-p{
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(100, 100, 100);
+    }
+
     .or-line{
         @include flex-layout(row);
         color:  rgb(128, 127, 127);
@@ -19,5 +31,14 @@
 
   .login-link-div{
     @include div-scss(320px, 15px, 30px, 25px, 10px, 0, 10px);
+  }
+
+  .App-link-div{
+    p{
+      margin-bottom: 10px;
+    }
+    img{
+      margin-right: 10px;
+    }
   }
 }

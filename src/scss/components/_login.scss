@@ -25,6 +25,10 @@
       .form-div{
         @include div-scss(320px, 0, 30px, 20px, 0, 20px, 0px);
 
+          @media only screen and (max-width: 760px) {
+            @include div-scss(320px, 0, 0px, 20px, 0, 0px, 0px);
+          }
+
         img{
             margin: 20px 0 20px 0;
         }
@@ -51,6 +55,10 @@
 
       .signup-link-div{
         @include div-scss(320px, 20px, 30px, 20px, 20px, 20px, 10px);
+
+        @media only screen and (max-width: 760px) {
+          @include div-scss(320px, 20px, 0px, 20px, 20px, 0px, 0px);
+        }
       }
 
       .App-link-div{

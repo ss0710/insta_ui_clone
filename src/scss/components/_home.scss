@@ -1,5 +1,4 @@
 .timeline-div{
-  width: 100%;
   background-color: $color-background;
   @include flex-layout(row);
   @include flex-layout-alignment(center, center);
@@ -10,9 +9,25 @@
    @include flex-layout(row);
    padding-top: 40px;
 
+   @media only screen and (max-width: 760px) {
+    @include flex-layout(column);
+    width: 98%;
+  }
+
    .posts{
-    flex: 2.2;
+    flex: 1;
     background: transparent;
+
+    @media only screen and (max-width: 760px) {
+      flex: 1;
+    }
+
+    .suggestions{
+      @media only screen and (max-width: 760px) {
+        display: none;
+      }
+    }
+  
 
     .stories{
      height: 90px;

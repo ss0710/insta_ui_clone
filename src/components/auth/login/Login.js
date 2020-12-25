@@ -14,7 +14,7 @@ const Login  = () => {
             <div className="login-container">
 
                  <div className="container-child">
-                    <img width={380} height={600} src={Phone} alt="login-img"/>
+                    <img className="login-phone" width={380} height={600} src={Phone} alt="login-img"/>
                  </div>
 
                  <div className="container-child">
@@ -23,7 +23,7 @@ const Login  = () => {
                     <img width={280} height={70} src={InstagramLogo} alt="instagram-logo"/>
                     <InputTextField type={'text'} placeholder={'username'} />
                     <InputTextField type={'password'} placeholder={'Password'} />
-                    <Link to="/Home"><ClickButton text={'Log In'}/></Link>
+                    <Link to="/Home" style={{ textDecoration: 'none' }}><ClickButton text={'Log In'}/></Link>
                     <p>OR</p>
                     <div className="Login-Links">
                     <h4>Log in with Facebook</h4>

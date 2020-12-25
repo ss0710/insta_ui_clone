@@ -43,7 +43,7 @@ const Navbar = () => {
                     <MessengerIcon className="icon"/>
                     <ExploreIcon className="icon"/>
                     <FavoriteBorder className="icon"/>
-                    <Avatar alt="profile" src={ProfilePic} className="icon" className={classes.small}/>
+                    <Avatar alt="profile" src={ProfilePic} className={classes.small}/>
                 </div>
             </div>
         </div>

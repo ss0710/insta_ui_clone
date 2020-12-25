@@ -9,7 +9,17 @@
     @include flex-layout-alignment(space-around, flex-start);
     padding: 50px;
 
+    @media only screen and (max-width: 760px) {
+      @include flex-layout(column);
+    }
+
     .container-child{
+
+      .login-phone{
+        @media only screen and (max-width: 760px) {
+          display: none;
+        }
+      }
 
       .form-div{
         @include div-scss(320px, 0, 30px, 20px, 0, 20px, 0px);

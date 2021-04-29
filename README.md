@@ -6,9 +6,6 @@ Instagram UI Clone build on React.js
 ## Build status
 deplaoyed on Heroku. Link:- https://c2loneinsta.herokuapp.com/
  
-## Screenshots
-<img src=""https://c2loneinsta.herokuapp.com/static/media/instagramLogo.44ed8a54.PNG />
-
 ## Tech/framework used
 React.js (JavaScript Frontend Framework)
 
